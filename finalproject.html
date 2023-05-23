@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      background-color: beige;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .bookmark {
+      text-align: right;
+      Margin: 30px;
+      top: 10px;
+      right: 10px;
+    }
+    .button {
+  border: none;
+  Font-family: "Times New Roman", Times, serif;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  Background-color: beige;
+}
+   button:hover {
+   background-color: #b0906f;
+}
+    
+    .header {
+  padding: 150px 570px;
+  text-align: center;
+  background: #ceb195;
+  color: white;
+  font-size: 30px;
+}
+   h1 {
+  Text-align: left;
+}
+   h2 {
+  Color: #964B00;
+  Text-align: center;
+  Margin-top: 80px;
+}
+
+  .column {
+  float: left;
+}
+
+  .left {
+  width: 24%;
+  margin-top: 130px;
+}
+
+  .right {
+  margin-top: 50px;
+  width: 76%;
+}
+   P {
+  text-align: left;
+  margin: 30px;
+  font-size: 20px;
+  line-height: 1.6;
+  Font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-size: 24px;
+  Color: #964B00;
+  Text-align: center;
+  Margin-left: 0px;
+}
+
+//for my work
+.tab-container {
+  width: 1300px;
+  margin: 0 auto;
+  Font-family: "Times New Roman", Times, serif;
+}
+
+.tab-buttons {
+  display: flex;
+  Font-family: "Times New Roman", Times, serif;
+}
+
+.tab-button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #b0906f;
+  cursor: pointer;
+  Font-family: "Times New Roman", Times, serif;
+  Font-size: 18px;
+}
+
+.tab-button.active {
+  background-color: #ceb195;
+  color: white;
+}
+
+.tab button:hover {
+  background-color: #ceb195;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  background-color: #ceb195;
+}
+
+.header1 {
+  padding: 150px 600px;
+  text-align: center;
+  background: #ffffff;
+  color: ceb195;
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 30px;
+  Color: #ffffff;
+  Text-align: center;
+  Margin-left: 0px;
+}
+
+.mySlides {
+  Margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.gallery {
+  margin: 20px;
+  border: none;
+  float: left;
+  width: 600px;
+}
+
+div.gallery:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+h5 {
+  Font-style: italic;
+  font-size: 24px;
+  Color: #ffffff;
+  Text-align: left;
+  Margin-left: 30px;
+}
+h6 {
+  Font-style: italic;
+  font-size: 24px;
+  Color: #ffffff;
+  Text-align: left;
+  Margin-left: 30px;
+}
+.gallery1{
+  Text-align: left;
+  Float: left;
+  Margin: 30px;
+}
+h7 {
+  font-size: 24px;
+  Color: #964B00;
+  Font-style: bold;
+  Text-align: left;
+  Margin-left: 0px;
+  Margin-top: 50px;
+}
+.contact-info {
+  Text-align: center;
+}
+
+  </style>
+</head>
+<body>
+  <div class="bookmark">
+    <a href="#section1"><button class="button">HOME</button></a>
+    <a href="#section2"><button class="button">MY WORK</button></a>
+    <a href="#section3"><button class="button">CONTACT</button></a>
+  <div class="header">
+  <h1>Hello, I'm Charlotte.</h1>
+</div>
+
+  <h2 id="section1">Welcome to My Portfolio!</h2>
+  <div class="row">
+    <div class="column left">
+  <img src="charlotte.png" alt="Charlotte" style="float:left;width:300px;height:300px;"> 
+    </div>
+    <div class="column right">
+  <p>
+Hi! My name is Charlotte! I am admitted to University of Washington for pre-science major and planning to major in biology in the future. I'm born and lived in Taiwan for my entire life yet so excited to start my life in Seattle! Can't wait to see new Huskies in the future!</p>
+  <p> I love traveling, coffee shop hunting, listening to music, and going outdoors with friends. I love dancing yet not a professional dancer, but enjoying my time when doing k=pop dance cover with friends. Hope to meet other k-pop friends in Seattle!</p>
+  
+  <p> This is the first webpage I ever created for myself to practice my html. At the very first of my AP CSA course, I'm 100% sure comp sci is not for me. Yet, over the past few months of torturing under practicing java, I gradually found the sense of accomplishment once I successfully complete a runnable code:) Even though I'm not planning to study cs in the future, I believe it will be a really useful skill for me as a college student or even an employee. I will keep on trying to code more and learn more about comp sci in the future! </p>
+
+</div>
+
+<h3 id="section2"> My Works </h3>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="tab-container">
+    <div class="tab-buttons">
+      <button class="tab-button active" data-tab="tab1">Dancing</button>
+      <button class="tab-button" data-tab="tab2">Baking</button>
+      <button class="tab-button" data-tab="tab3">Academics</button>
+    </div>
+    <div class="tab-content" id="tab1">
+      <h4>Dancing</h4>
+      <div class="w3-content w3-display-container">
+  <img class="mySlides" src="dancing1.jpg" style="width:50%">
+  <img class="mySlides" src="dancing2.jpg" style="width:50%">
+  <img class="mySlides" src="dancing3.jpg" style="width:50%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script> 
+
+      <p>
+      I am passionate in dancing since 6 years old when I started my ballet and Chinese traditional dance classes. With the classes, I have plenty of opportunity to stand on stage for performance, which is the point when I feel confident and comfortable to be in front of people. Starting from my middle school, I joined the school's street dance club and continue pursuing my dance journey with street dance and kpop dance. After one year of practicing and training, our dance club members decided to hold a cross-school dance performance showcase in 2021. After participating in the showcase, I found my interests not only in dancing, yet anything related to dancing makes me excited. I became the event coordinator and the stage crew manager of the dance performance on the second year of our dance showcase after the success of the first. Everything I did with dancing strengthens my confidence when standing on stage. I would like to continue my dance journey in college and meet other passionated dancers to start another chapter of the journey.
+      </p>
+    </div>
+    <div class="tab-content" id="tab2">
+      <h4>Baking</h4>
+<div class="gallery">
+  <a target="_blank" href="baking4.jpg">
+    <img src="baking4.jpg" alt="Madeleines for Charity Sales" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="baking5.jpg">
+    <img src="baking5.jpg" alt="Madeleines" width="600" height="400">
+  </a>
+</div>
+
+<p> </p>
+
+      <p>Baking has a remarkable ability to positively impact individuals on a personal level. Beyond the delicious treats it produces, baking offers a therapeutic and meditative experience. The process of measuring ingredients, following recipes, and engaging in the hands-on creation of baked goods can be calming and grounding. Baking allows individuals to channel their creativity, providing an outlet for self-expression and experimentation. Moreover, the act of sharing baked goods with others fosters a sense of connection and joy. Baking can boost confidence, instill a sense of accomplishment, and provide a much-needed break from daily stresses. Ultimately, baking nurtures both the mind and the soul, offering solace and satisfaction to those who partake in this delightful culinary art.
+</p>
+    </div>
+    <div class="tab-content" id="tab3">
+      <h4>Academics</h4>
+      <h5>iGEM</h5>
+      <div class="gallery">
+  <a target="_blank" href="igem1.jpg">
+    <img src="igem1.jpg" alt="iGEM Nobesity Poster" width="600" height="400">
+  </a>
+</div>
+      <p>COVID mRNA vaccines, which helped bring the world back to some levels of normalcy, fascinate me. Such innovations highlight the potential of biological sciences and have encouraged me to pursue my passion in biomedical research through programs like the International Genetically Engineered Machine (iGEM) competition. </p>
+
+<p>Alongside other students interested in biochemistry, I started preparing for the global competition through learning about gene cloning, understanding PCRs, and doing Western blots. During lectures on synthetic biology, I simultaneously felt uncertain and excited to encounter brand-new terminologies, although I feared falling short in my iGEM journey. However, the difficulty of mastering each topic could not extinguish my growing enthusiasm for all kinds of bioengineering. I willingly spent many lunch breaks in our teachers’ offices asking questions and reviewing lectures so that I could improve my understanding.  </p>
+<p> After being elected student captain of our team, I felt even more eager to develop our ambitious bioengineering project on designing yeast engineered with the SNF1 gene to test the possible stress-mitigating properties of obesity-reducing supplements. As the captain, I needed to have a concrete understanding of techniques to explain and provide solutions to problems that came up during our project. Consequently, I dedicated myself to increasing my scientific research skills and growing as a biomedical researcher. With each step toward our final project presentation, acknowledgements from instructors and fellow team members made me more confident in my role and approach as team captain. </p>
+<p>Being a part of the first team to represent our school at iGEM completely changed my approach to learning. From initial confusion on topics to proactively reaching out to our instructors and eventually becoming the team leader, I cherish the profound impact of the iGEM process. Such advanced study at this level has solidified my passions at the intersections of biology and chemistry and encourages me to seek educational opportunities that take my learning further than ever.
+</p>
+
+<h6>Internship in Neuroimmunology Lab of NCCU</h6>
+
+<div class="gallery1">
+  <a target="_blank" href="nccu1.jpg">
+    <img src="nccu1.jpg" alt="nuerons" width="200" height="300">
+  </a>
+</div>
+<div class="gallery1">
+  <a target="_blank" href="nccu2.jpg">
+    <img src="nccu2.jpg" alt="nuerons" width="200" height="300">
+  </a>
+</div>
+<div class="gallery1">
+  <a target="_blank" href="nccu3.jpg">
+    <img src="nccu3.jpg" alt="nuerons" width="200" height="300">
+  </a>
+</div>
+<div class="gallery1">
+  <a target="_blank" href="nccu4.jpg">
+    <img src="nccu4.jpg" alt="nuerons" width="200" height="300">
+  </a>
+</div>
+<div class="gallery1">
+  <a target="_blank" href="nccu5.jpg">
+    <img src="nccu5.jpg" alt="nuerons" width="200" height="300">
+  </a>
+</div>
+
+<p> I became interested in Biochemistry after interning at a lab in the Institute of Neuroscience at National Chengchi University Taiwan for the summer. I was particularly intrigued by their research on dementia as I did experimental demonstrations with grad students and listened to lectures on their work and the gene APoE. I could not help but ask question after question about their methods and procedures. Specifically, I knew Biochemistry was for me when I was able to perform immunohistochemistry and western blotting. Learning these methods showed me applications of biochemical understanding in addressing diseases. The internship provided a transition from classroom and textbook to a career environment and lab work. It clarified to me that my scientific curiosity is applicable and that over time, I can convert knowledge I find fascinating into beneficial results.</p>
+    </div>
+  </div>
+
+<script> 
+
+// Get all tab buttons and tab contents
+const tabButtons = document.querySelectorAll('.tab-button');
+const tabContents = document.querySelectorAll('.tab-content');
+
+// Function to switch tabs
+function switchTab(tab) {
+  // Hide all tab contents
+  tabContents.forEach(content => {
+    content.style.display = 'none';
+  });
+
+  // Remove 'active' class from all tab buttons
+  tabButtons.forEach(button => {
+    button.classList.remove('active');
+  });
+
+  // Display the selected tab content
+  document.getElementById(tab).style.display = 'block';
+
+  // Add 'active' class to the clicked tab button
+  document.querySelector(`[data-tab="${tab}"]`).classList.add('active');
+}
+
+// Attach click event listeners to tab buttons
+tabButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const tab = button.dataset.tab;
+    switchTab(tab);
+  });
+});
+
+// Show the first tab by default
+switchTab('tab1');
+</script>
+
+<div class="object">
+    <p> </p>
+  </div>
+<h2  id="section3">Contact Me</h2>
+<div class="contact-info">
+    <p><strong>Email:</strong> charhsu@uw.edu </p>
+    <p><strong>Phone:</strong> +886 909143588</p>
+    <p><strong>Address:</strong> 123 Main Street, City, State, Zip</p>
+  </div>
+
+</div>
+</body>
+</html
